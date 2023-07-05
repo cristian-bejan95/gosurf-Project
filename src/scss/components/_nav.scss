@@ -1,0 +1,16 @@
+.nav {
+  padding-top: 40px;
+}
+.nav__link {
+  font-weight: 500;
+  line-height: 14px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: var(--light-color);
+
+  span {
+    display: block;
+    padding-top: 6px;
+    margin-bottom: 20px;
+  }
+}
