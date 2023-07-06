@@ -124,7 +124,6 @@
     }
   }
 }
-
 .header__aside {
   position: absolute;
   top: 0;
@@ -184,4 +183,26 @@
 .header__search {
   padding-top: 15px;
   padding-bottom: 35px;
+}
+.header__map {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.header__arrows {
+  position: absolute;
+  left: 210px;
+  bottom: 40px;
+  z-index: 10;
+}
+.line-animation {
+  stroke-dashoffset: 600;
+  stroke-dasharray: 600;
+  animation: animdash 5s infinite 6s;
+}
+@keyframes animdash {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
